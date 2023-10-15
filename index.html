@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black ">
+    <div class="flex justify-center pt-44 h-screen">
+
+        <div class="h-52 w-96 rounded border-black flex justify-items-center pt-2 bg-white pl-5" id="box">
+            <div >
+            <p class=" p-3 text-xl font-bold">Inter some text to generate QR Code</p>
+            <input type="text" placeholder="qr code Generate" class="input  input-primary w-full max-w-xs pl-20" id="inputqr"/>
+            <div class="flex justify-center p-5 transition 3s">
+                <img src="" id="image">
+            </div>
+            <button class="btn btn-secondary items-center w-80" id="btnqr">Generate</button>
+            </div>
+        </div>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
